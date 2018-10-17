@@ -7,7 +7,6 @@ def oxford_comma(array)
     last_item = array.pop
     my_string = array.join(", ")
     total_string = my_string + ", and " + last_item
-    
   end
   
 end
